@@ -16,5 +16,4 @@ if ($stmt->execute([$name, $email, $password])) {
 } else {
     echo json_encode(["error" => "Registration failed"]);
 }
-
-
+?>
