@@ -1,5 +1,5 @@
 <?php
-require 'config.php';
+require 'db_config/connection.php';
 require 'vendor/autoload.php';
 
 use Firebase\JWT\JWT;
